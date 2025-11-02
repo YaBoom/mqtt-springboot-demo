@@ -1,0 +1,14 @@
+﻿server:
+  port: 9090  # 服务器端口配置
+
+spring:
+  ai:
+    mcp:
+      server:
+        name: spring-ai-mcp-sse-server    # MCP服务器名称
+        version: 1.0.0                # 服务器版本号
+        type: ASYNC #异步
+
+third:
+  weather:
+    url: http://wthrcdn.etouch.cn/weather_mini?city=%s

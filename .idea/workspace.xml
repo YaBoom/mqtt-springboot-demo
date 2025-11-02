@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65543cd9-f545-4169-98de-d4d5ca5ad580" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-ai-mcp-client/src/main/java/com/yuncheng/mcp/controller/ToolsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-mcp-client/src/main/java/com/yuncheng/mcp/service/AgentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-mcp-sse-server/src/main/java/com/yuncheng/mcp/config/WeatherConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-mcp-sse-server/src/test/java/com/yuncheng/mcp/config/WeatherConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-mcp-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-mcp-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-mcp-client/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-mcp-client/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-mcp-sse-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-mcp-sse-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-mcp-sse-server/src/main/java/com/yuncheng/mcp/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-mcp-sse-server/src/main/java/com/yuncheng/mcp/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-mcp-sse-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-mcp-sse-server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-mcp-stdio-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-mcp-stdio-server/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\xiaozhu-setting.xml\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="31dMCO0l7pwEGty2psHdsEIxDPh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.McpClientApplication.executor": "Debug",
+    "Application.McpServerApplication (1).executor": "Debug",
+    "Application.McpServerApplication.executor": "Debug",
+    "JUnit.WeatherConfigTest.test30.executor": "Debug",
+    "Maven.spring-ai-mcp-stdio-server [clean].executor": "Run",
+    "Maven.spring-ai-mcp-stdio-server [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.McpServerApplication (1).executor": "Debug",
+    "Spring Boot.McpServerApplication.executor": "Debug",
+    "Spring Boot.McpServerStdioApplication.executor": "Debug",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspaceForZhu/spring-ai-mcp-demo/spring-ai-mcp-sse-server/src/main/java/com/yuncheng/mcp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspaceForZhu\spring-ai-mcp-demo\spring-ai-mcp-sse-server\src\main\java\com\yuncheng\mcp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yuncheng.mcp.config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuncheng.mcp.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.McpClientApplication">
+    <configuration name="McpClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuncheng.mcp.McpClientApplication" />
+      <module name="spring-ai-mcp-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuncheng.mcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuncheng.mcp.McpServerApplication" />
+      <module name="spring-ai-mcp-stdio-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuncheng.mcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuncheng.mcp.McpServerApplication" />
+      <module name="spring-ai-mcp-sse-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuncheng.mcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherConfigTest.test30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ai-mcp-sse-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuncheng.mcp.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuncheng.mcp.config" />
+      <option name="MAIN_CLASS_NAME" value="com.yuncheng.mcp.config.WeatherConfigTest" />
+      <option name="METHOD_NAME" value="test30" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-ai-mcp-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuncheng.mcp.McpClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-ai-mcp-stdio-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuncheng.mcp.McpServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-ai-mcp-sse-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuncheng.mcp.McpServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="McpServerStdioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-ai-mcp-stdio-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuncheng.mcp.McpServerStdioApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuncheng.mcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.McpClientApplication" />
+        <item itemvalue="Application.McpServerApplication (1)" />
+        <item itemvalue="JUnit.WeatherConfigTest.test30" />
+        <item itemvalue="Spring Boot.McpServerStdioApplication" />
+        <item itemvalue="Application.McpServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65543cd9-f545-4169-98de-d4d5ca5ad580" name="Changes" comment="" />
+      <created>1755849367275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755849367275</updated>
+      <workItem from="1755849368345" duration="3296000" />
+      <workItem from="1756083693719" duration="4177000" />
+      <workItem from="1756686927910" duration="1066000" />
+      <workItem from="1757299715389" duration="491000" />
+      <workItem from="1757469163731" duration="164000" />
+      <workItem from="1757469387796" duration="413000" />
+      <workItem from="1759107947945" duration="8295000" />
+      <workItem from="1759571255781" duration="2627000" />
+      <workItem from="1759710513314" duration="1385000" />
+      <workItem from="1759829893318" duration="1228000" />
+      <workItem from="1761016510156" duration="414000" />
+      <workItem from="1761614522547" duration="3294000" />
+      <workItem from="1761883819318" duration="647000" />
+      <workItem from="1761885075286" duration="2039000" />
+      <workItem from="1761965114068" duration="1340000" />
+      <workItem from="1762062696293" duration="999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-ai-mcp-sse-server/src/test/java/com/yuncheng/mcp/config/WeatherConfigTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring-ai-mcp-client/src/main/java/com/yuncheng/mcp/controller/ToolsController.java</url>
+          <line>41</line>
+          <properties class="com.yuncheng.mcp.controller.ToolsController" method="getCurrentDaxue">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

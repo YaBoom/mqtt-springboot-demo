@@ -1,0 +1,28 @@
+﻿server:
+  port: 8082
+
+spring:
+  ai:
+    mcp:
+      client:
+        type: ASYNC
+        sse:
+          connections:
+            server1:
+              url: http://localhost:9090 Q
+        stdio:
+          connections:
+            server2:
+              command: java
+              args:
+                - -Dspring.ai.mcp.server.stdio=true
+                - -Dspring.main.web-application-type=none
+                - -Dspring.main.banner-mode=off
+                - -jar
+                - D:/workspaceForZhu/spring-ai-mcp-demo/spring-ai-mcp-stdio-server/target/spring-ai-mcp-stdio-server.jar
+    dashscope:
+      api-key: sk-06014026583941b6a03d6b790fa734a5
+      chat:
+        options:
+          #模型名称： qwen-plus  deepseek-v3  deepseek-r1
+          model: qwen-plus
