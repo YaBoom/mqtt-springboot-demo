@@ -1,37 +1,10 @@
 # spring_ai_mcp
 
 #### 介绍
-该demo主要演示基于Spring AI如何实现MCP开发和调用。首先自定义了三个MCP Server，其中：一个是根据天气信息获取穿衣建议；一个是根据大学名称获取大学详情信息；一个是根据ip获取ip详情；
+该demo主要演示基于Spring AI如何实现MCP开发和调用。首先自定义了两个MCP Server，其中：一个是算术计算器MCP Server，并通过sdtio传输协议发布，另一个是天气预报MCP Server，通过sse传输协议发布。然后实现一个MCP Client，并调用通过qwen-plus大模型来完成整个 MCP 调用流程。
 
 #### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+	大模型采用阿里云千问qwen-plus大模型。
+	基于sse协议实现一个MCP Server，模拟开发一个天气预报服务，通过sse传输协议发布为MCP Server。
+	基于stdio的MCP服务端通过标准输入输出流与客户端通信，适用于作为子进程被客户端启动和管理的场景：模拟开发一个算术计算器服务，通过stdio传输协议发布为MCP Server。 
+	基于 Spring AI 的异步 MCP 客户端，调用SSE 和 Stdio 两种MCP服务。server1采用SSE方式，连接指向http://localhost:9090，server2采用Stdio 方式，Stdio 通过 Java 命令启动，指定 Jar 文件位置。
