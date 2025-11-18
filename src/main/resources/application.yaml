@@ -1,0 +1,33 @@
+# MQTT配置
+#mqtt配置信息
+mqtt:
+   # MQTT代理服务器地址
+   broker-url: tcp://localhost:1883
+   # 客户端ID
+   client-id: 2405b7249600
+   # 网关设备 ID（物联网接入服务 ID）
+   interface-device-id: 2405b7249600
+   #  用户名
+   username: admin
+   # 密码
+   password: yateng123
+   # 连接超时时间（秒）
+   connection-timeout: 30
+   # 保持活动间隔（秒）
+   keep-alive-interval: 60
+   # 重连延迟时间（毫秒）
+   reconnect-delay: 5000
+   # 是否清除会话
+   clean-session: true
+   # 最大飞行消息数
+   max-inflight: 10
+   # 重连相关配置
+   enable-custom-reconnect: true
+   max-reconnect-attempts: 0  # 0表示无限重试
+   initial-reconnect-delay: 1000  # 初始重连延迟1秒
+   max-reconnect-delay: 60000     # 最大重连延迟60秒
+   reconnect-backoff-multiplier: 1.5  # 重连延迟倍增因子
+   # 默认主题
+   default-topic: test/topic
+   # 默认服务质量等级
+   default-qos: 1
