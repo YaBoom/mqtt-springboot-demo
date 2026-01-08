@@ -1,4 +1,4 @@
-﻿server:
+server:
   port: 8082
 
 spring:
@@ -21,7 +21,7 @@ spring:
                 - -jar
                 - D:/workspaceForZhu/spring-ai-mcp-demo/spring-ai-mcp-stdio-server/target/spring-ai-mcp-stdio-server.jar
     dashscope:
-      api-key: sk-06014026583941b6a03d6b790fa734a5
+      api-key: sk-060140265839XXXXXXXXXXXXXXXXXX
       chat:
         options:
           #模型名称： qwen-plus  deepseek-v3  deepseek-r1
