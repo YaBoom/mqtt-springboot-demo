@@ -1,0 +1,6 @@
+﻿spring:
+  ai:
+    mcp:
+      server:
+        name: spring-ai-mcp-stdio-server
+        version: 1.0.0
